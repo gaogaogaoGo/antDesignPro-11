@@ -11,7 +11,8 @@ import GridContent from '@/components/PageHeaderWrapper/GridContent';
 
 import Authorized from '@/utils/Authorized';
 import styles from './Monitor.less';
-
+import ReactSVG from 'react-svg';
+import svg from '@/assets/test.svg';
 const { Secured } = Authorized;
 
 const targetTime = new Date().getTime() + 3900000;
@@ -35,6 +36,10 @@ class Monitor extends PureComponent {
     });
   }
 
+  test = e => {
+    console.log('e', e.target);
+  };
+
   render() {
     const { monitor, loading } = this.props;
     const { tags } = monitor;
@@ -43,6 +48,9 @@ class Monitor extends PureComponent {
       <GridContent>
         <Row gutter={24}>
           <Col xl={18} lg={24} md={24} sm={24} xs={24} style={{ marginBottom: 24 }}>
+            <div style={{ width: '300px' }}>
+              <ReactSVG src={svg} onClick={this.test} renumerateIRIElements={false} />
+            </div>
             <Card
               title={
                 <FormattedMessage

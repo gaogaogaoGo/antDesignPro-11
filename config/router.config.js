@@ -35,9 +35,11 @@ export default [
             component: './Dashboard/Monitor',
           },
           {
-            path: '/dashboard/workplace',
+            // path: '/dashboard/workplace',
+            path: 'http://www.baidu.com',
+            target: '_blank',
             name: 'workplace',
-            component: './Dashboard/Workplace',
+            // component: './Dashboard/Workplace',
           },
         ],
       },

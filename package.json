@@ -47,12 +47,13 @@
     "prop-types": "^15.5.10",
     "qs": "^6.5.2",
     "rc-animate": "^2.4.4",
-    "react": "^16.5.1",
+    "react": "^16.8.6",
     "react-container-query": "^0.11.0",
     "react-copy-to-clipboard": "^5.0.1",
     "react-document-title": "^2.0.3",
     "react-dom": "^16.5.1",
     "react-fittext": "^1.0.0",
+    "react-multi-crops": "0.0.10",
     "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
@@ -80,6 +81,7 @@
     "mockjs": "^1.0.1-beta3",
     "prettier": "1.14.3",
     "pro-download": "^1.0.1",
+    "react-svg": "^10.0.9",
     "stylelint": "^9.4.0",
     "stylelint-config-prettier": "^4.0.0",
     "stylelint-config-standard": "^18.0.0",
